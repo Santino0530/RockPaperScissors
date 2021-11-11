@@ -148,7 +148,7 @@ html{
   box-sizing: border-box;
   background: #082c6c;
   color: #fff;
-  font-family: American Typewriter, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .game{
@@ -209,10 +209,9 @@ html{
 }
 
 .reload {
-  display: none;
+  display: none ;
   margin-top: 2rem;
   padding: 1rem;
-  background: green;
   outline: none;
   border: none;
   border-radius: 10px;
@@ -260,4 +259,78 @@ html{
 
 .container .btn:hover {
   background-color: black;
+}
+
+
+.awesome {
+  
+  font-family: futura;
+  font-style: italic;
+  
+
+
+  color:#313131;
+  font-size:45px;
+  font-weight: bold;
+  position: absolute;
+  left: 35%;
+  -webkit-animation:colorchange 20s infinite alternate;
+  
+  
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: blue;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
 }
